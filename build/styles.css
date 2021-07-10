@@ -1,0 +1,148 @@
+/* General classes */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background: linear-gradient(-45deg, #02e0addc, #29b7da, #8d2ee6);
+    background-size: 400% 400%;
+    color: #fff;
+    animation: gradient 4s ease infinite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.expand {
+    transition: all 0.3s ease-in-out;
+}
+
+.expand:hover {
+    transform: scale(1.05);
+}
+
+.upper-margin {
+    padding: 150px 0;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bold {
+    font-size: 300%;
+    font-weight: bolder;
+}
+
+.padding {
+    padding: 25px 25px;
+}
+.less-padding {
+    padding: 10px 0px;
+}
+
+
+/* Header and Navigation Bar */
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.nav-item {
+    margin: 0px 30px;
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    background-color: rgb(33, 127, 204);
+}
+
+.navbar a {
+    color: white !important;
+}
+/* INTRO */
+
+.photo {
+    width: 70%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 60%;
+}
+
+.intro {
+    font-size: 300%;
+    text-align: left;
+}
+
+.visit {
+    font-size: x-large;
+}
+
+/* ABOUT */
+
+.about p {
+    font-size: 170%;
+}
+
+.about a {
+    text-decoration: none;
+    color: white;
+}
+/* SKILLS */
+
+.skill a {
+    color: white;
+}
+
+/* PROJECTS */
+
+.proj-img {
+    border: 2px solid rgb(0, 124, 161);
+    border-radius: 10px;
+    width: 60%;
+    height: auto;
+}
+
+.proj-content {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 125%;
+}
+
+.project a {
+    color: white;
+    text-decoration: none;
+}
+
+.project h4 {
+    text-decoration: underline;
+}
+
+/* CONTACTS */
+.logos{
+    margin-top: 100px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.top {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 80px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
