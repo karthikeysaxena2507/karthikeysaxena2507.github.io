@@ -13,7 +13,8 @@ import dbms from "./Images/dbms.png";
 import ds from "./Images/datastructures.png";
 import oop from "./Images/oops.png"
 import cf from "./Images/codeforces.png";
-import hr from "./Images/hackerrank.png";
+import docker from "./Images/docker.png";
+import kubernetes from "./Images/kubernetes.png";
 import redis from "./Images/redis.png";
 import star from "./Images/star.png";
 import link from "./Images/link.png";
@@ -105,6 +106,20 @@ function Skill() {
         </ScrollAnimation>
         <hr />
         <ScrollAnimation animateIn="fadeInLeft" duration={1.25}>
+        <div class="center-text"> <h3> <img src={star} alt="not found" /> DEVOPS <img src={star} alt="not found" /> </h3> </div>
+        <div class="row">
+            <div class="col-sm-6 center-text padding">
+                <img src={docker} alt="not found" />
+                <h4 class="less-padding"> Docker </h4>
+            </div>
+            <div class="col-sm-6 center-text padding">
+                <img src={kubernetes} alt="not found" />
+                <h4 class="less-padding"> Kubernetes </h4>
+            </div>
+        </div>
+        </ScrollAnimation>
+        <hr />
+        <ScrollAnimation animateIn="fadeInRight" duration={1.25}>
         <div class="center-text"> <h3> <img src={star} alt="not found" /> Other <img src={star} alt="not found" /> </h3> </div>
         <div class="row">
             <div class="col-sm-12 center-text padding">
