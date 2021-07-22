@@ -1,5 +1,5 @@
 const data = {
-    RESUME_LINK: "https://drive.google.com/file/d/1ShgD0M7Pj3Sq1qMcLWlT1eYAx4xILsu1/view?usp=sharing",
+    RESUME_LINK: "https://drive.google.com/file/d/1TfGyetdVgaJEBUIvz8_Azq5SX6x4Zy4T/view?usp=sharing",
     GITHUB_LINK: "https://github.com/karthikeysaxena2507/",
     LINKEDIN_LINK: "https://www.linkedin.com/in/karthikey-saxena-69944b177/",
     INSTAGRAM_LINK: "https://www.instagram.com/karthikeysaxena/",
