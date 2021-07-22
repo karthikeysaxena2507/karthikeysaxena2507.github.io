@@ -1,8 +1,13 @@
 import React from "react";
 
 function Header() {
-    return <nav class = "navbar navbar-expand-md navbar-light bg-dark text-white fixed-top" id="bar">
-      <button type = "button" class = "navbar-toggler" data-toggle = "collapse" data-target="#navbarCollapse">
+    return (
+    <nav class = "navbar navbar-expand-md navbar-light bg-dark text-white fixed-top" id="bar">
+      <button 
+        type = "button" 
+        class = "navbar-toggler" 
+        data-toggle = "collapse" 
+        data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"> </span>
       </button>
       <div class = "collapse navbar-collapse" id="navbarCollapse">
@@ -14,7 +19,7 @@ function Header() {
           <a href = "#contact" class = "nav-item nav-link active expand"> Contact Me </a>
         </div>
       </div>
-    </nav>
+    </nav>);
 }
 
 export default Header;

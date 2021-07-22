@@ -7,7 +7,7 @@ const ContactItem = (props) => {
                 href = {props.value}
                 rel = "noreferrer" 
                 target = "_blank"
-            > <img src={props.image} alt="not found" /> 
+            > <img src = {props.image} alt = "not found" /> 
             </a>
         </div>    
     );

@@ -1,5 +1,5 @@
 import React from "react";
-import gototop from "./Images/top.png"
+import gototop from "../Images/top.png"
 
 const Footer = () => {
 
@@ -7,9 +7,15 @@ const Footer = () => {
     var year = date.getFullYear();
 
     return (
-    <footer class="center-text"> 
-         <a href="#intro"> <div class="top expand"> <img src={gototop} alt="not found" /> </div> </a>
-        <h4> Copyright {year} @ Karthikey Saxena </h4>
+    <footer class = "center-text"> 
+        <a href = "#intro"> 
+            <div class = "top expand"> 
+                <img src = {gototop} alt = "not found" /> 
+            </div> 
+        </a>
+        <h4> 
+            Copyright {year} @ Karthikey Saxena 
+        </h4>
     </footer>
     );
 }
