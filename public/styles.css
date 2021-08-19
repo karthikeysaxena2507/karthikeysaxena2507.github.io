@@ -146,3 +146,10 @@ footer {
     margin-bottom: 50px;
 }
 
+.exp:hover {
+    cursor: pointer;
+}
+
+.exp {
+    font-size: larger;
+}

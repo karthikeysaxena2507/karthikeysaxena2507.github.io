@@ -1,7 +1,7 @@
 import React from "react";
 import ScrollAnimation from 'react-animate-on-scroll';
 import link from "../Images/link.png";
-import { data } from "../config/data";
+import * as data from "../config/data";
 
 const Project = (props) => {
     return (
@@ -9,7 +9,7 @@ const Project = (props) => {
         <div class = "row">
             <div class = "col-md-6 padding center-text expand"> 
                 <a 
-                    href = {data.GITHUB_LINK + props.projectName} 
+                    href = {data.links.GITHUB_LINK + props.projectName} 
                     rel = "noreferrer" 
                     target="_blank" 
                 > 
@@ -23,7 +23,7 @@ const Project = (props) => {
             </div>
             <div class = "col-md-6 padding center-text">
                 <a 
-                    href = {data.GITHUB_LINK + props.projectName} 
+                    href = {data.links.GITHUB_LINK + props.projectName} 
                     rel = "noreferrer" 
                     target = "_blank" 
                 > 
@@ -47,7 +47,7 @@ const Project = (props) => {
                             type = "button" 
                             class = "btn btn-dark expand"> 
                             <a 
-                                href = {data.SOCIALITES_LINK} 
+                                href = {props.projectLink} 
                                 target = "_blank" 
                                 rel = "noreferrer" > 
                                 {props.button} 
