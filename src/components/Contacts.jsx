@@ -8,11 +8,8 @@ import Heading from "../helper/Heading";
 const Contacts = () => {
 
     return <div className = "container contact upper-margin" id = "contact">
-
-        <ScrollAnimation animateIn = "fadeIn" duration = {1.5}>
-            <Heading heading = "Contact Me" />
-        </ScrollAnimation>
-        <ScrollAnimation animateIn = "zoomIn" duration = {1.5}>
+        <Heading heading = "Contact Me" />
+        <ScrollAnimation animateIn = "zoomIn" animateOnce = {true} duration = {1.5}>
             <div className = "row logos">
                 {data.contacts.map((contact) => {
                     return (
@@ -24,9 +21,7 @@ const Contacts = () => {
                 })}
             </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn = "fadeIn" duration = {1.5}>
-            <Footer />
-        </ScrollAnimation>
+        <Footer />
     </div>
 }
 

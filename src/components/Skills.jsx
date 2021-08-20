@@ -10,45 +10,48 @@ import link from "../Images/link.png";
 const Skills = () => {
     return (
     <div className = "container skill upper-margin" id = "skills">
-
-        <ScrollAnimation animateIn = "fadeIn">
-            <Heading heading = "My Skills" />
-        </ScrollAnimation>
-
+        <Heading heading = "My Skills" />
         {/* LANGUAGES */}
-        <ScrollAnimation animateIn = "fadeInLeft" duration = {1.25}>
         <Title name = "LANGUAGES" />
         <div className = "row">
             {data.languages.map((item) => {
                 return (
                 <div className = "col-sm-4 text-center padding">
-                    <Skill image = {item.image} skill = {item.skill} />
+                    <Skill 
+                        image = {item.image} 
+                        skill = {item.skill} 
+                        animation = {item.animation}
+                    />
                 </div>);
             })}
         </div>
-        </ScrollAnimation>
 
         {/* TECHNICAL */}
-        <ScrollAnimation animateIn = "fadeInRight" duration = {1.25}>
         <Title name = "TECHNICAL" />
         <div className = "row">
             {data.technical.map((item) => {
                 return (
                 <div className = "col-sm-4 text-center padding">
-                    <Skill image = {item.image} skill = {item.skill} />
+                    <Skill 
+                        image = {item.image} 
+                        skill = {item.skill} 
+                        animation = {item.animation}
+                    />
                 </div>);
             })}
         </div>
-        </ScrollAnimation>
 
         {/* TECHNOLOGIES */}
-        <ScrollAnimation animateIn = "fadeInLeft" duration = {1.25}>
         <Title name = "TECHNOLOGIES" />
         <div className = "row">
             {data.technologies.map((item) => {
                 return (
                 <div className = "col-sm-4 text-center padding">
-                    <Skill image = {item.image} skill = {item.skill} />
+                    <Skill 
+                        image = {item.image} 
+                        skill = {item.skill} 
+                        animation = {item.animation}
+                    />
                 </div>);
             })}
         </div>
@@ -56,27 +59,32 @@ const Skills = () => {
             {data.devops.map((item) => {
                 return (
                 <div className = "col-sm-4 text-center padding">
-                    <Skill image = {item.image} skill = {item.skill} />
+                    <Skill 
+                        image = {item.image} 
+                        skill = {item.skill} 
+                        animation = {item.animation}
+                    />
                 </div>);
             })}
         </div>
-        </ScrollAnimation>
 
         {/* DATABASE */}
-        <ScrollAnimation animateIn = "fadeInRight" duration = {1.25}>
         <Title name = "DATABASE" />
         <div className = "row">
             {data.database.map((item) => {
                 return (
                 <div className = "col-sm-4 text-center padding">
-                    <Skill image = {item.image} skill = {item.skill} />
+                    <Skill 
+                        image = {item.image} 
+                        skill = {item.skill} 
+                        animation = {item.animation}
+                    />
                 </div>);
             })}
         </div>
-        </ScrollAnimation>
 
         {/* CP */}
-        <ScrollAnimation animateIn = "fadeInLeft" duration = {1.25}>
+        <ScrollAnimation animateIn = "fadeIn" duration = {1.5} animateOnce = {true}>
         <Title name = "CP" />
         <div className = "row">
             <div class = "col-sm-12 text-center padding">

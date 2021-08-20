@@ -9,10 +9,7 @@ const Projects = () => {
     return (
     <div className = "container upper-margin project" id = "projects">
 
-        {/* HEADING */}
-        <ScrollAnimation animateIn = "fadeIn">
-            <Heading heading = "My Projects" />
-        </ScrollAnimation>
+        <Heading heading = "My Projects" />
 
         {/* PRINT ALL PROJECTS */}
         {data.projects.map((project) => {
@@ -30,7 +27,7 @@ const Projects = () => {
         })}
 
         {/* SEE ALL PROJECTS */}
-        <ScrollAnimation animateIn = "zoomIn" duration = {1.25} >
+        <ScrollAnimation animateOnce = {true} animateIn = "fadeIn" duration = {1.5} >
             <div className = "center-text expand"> 
                 <h4> 
                     <a 

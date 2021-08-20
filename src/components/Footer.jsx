@@ -1,5 +1,6 @@
 import React from "react";
 import gototop from "../Images/top.png"
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Footer = () => {
 
@@ -7,7 +8,8 @@ const Footer = () => {
     var year = date.getFullYear();
 
     return (
-    <footer class = "center-text"> 
+    <ScrollAnimation animateIn = "fadeIn" animateOnce = {true} duration = {1.5}>
+    <footer class = "text-center"> 
         <a href = "#intro"> 
             <div class = "top expand"> 
                 <img src = {gototop} alt = "not found" /> 
@@ -17,6 +19,7 @@ const Footer = () => {
             Copyright {year} @ Karthikey Saxena 
         </h4>
     </footer>
+    </ScrollAnimation>
     );
 }
 

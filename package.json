@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^12.2.0",
     "animate.css": "^4.1.1",
     "axios": "^0.21.1",
-    "netlify-cli": "^3.4.4",
+    "netlify-cli": "^3.39.4",
     "react": "^17.0.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.1",

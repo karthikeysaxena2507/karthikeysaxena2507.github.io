@@ -5,23 +5,24 @@ import * as data from "../config/data";
 
 const Project = (props) => {
     return (
-    <ScrollAnimation animateIn = {props.animation} duration = {1.25}>
-        <div class = "row">
-            <div class = "col-md-6 padding center-text expand"> 
+        <div className = "row">
+            <div className = "col-md-6 padding text-center expand"> 
                 <a 
                     href = {data.links.GITHUB_LINK + props.projectName} 
                     rel = "noreferrer" 
-                    target="_blank" 
+                    target = "_blank" 
                 > 
+                
                 <img 
                     className = "proj-img" 
                     style = {{width: "85%", height: "90%"}} 
                     src = {props.image} 
-                    alt="not found"
+                    alt = "not found"
                 /> 
                 </a> 
             </div>
-            <div class = "col-md-6 padding center-text">
+            <div className = "col-md-6 padding text-center">
+                <ScrollAnimation animateIn = "fadeInRight" animateOnce = {true} duration = {1.5}>
                 <a 
                     href = {data.links.GITHUB_LINK + props.projectName} 
                     rel = "noreferrer" 
@@ -36,16 +37,16 @@ const Project = (props) => {
                 /> 
                 </h3> 
                 </a>
-                <p class = "proj-content">
+                <p className = "proj-content">
                     {props.description}
                     <br />
                     {props.content}
                     <br />
                     <br />
-                    <div class = "center-text">
+                    <div className = "text-center">
                         <button 
                             type = "button" 
-                            class = "btn btn-dark expand"> 
+                            className = "btn btn-dark expand"> 
                             <a 
                                 href = {props.projectLink} 
                                 target = "_blank" 
@@ -55,9 +56,9 @@ const Project = (props) => {
                         </button>
                     </div>
                 </p>
+                </ScrollAnimation>
             </div>
         </div>
-    </ScrollAnimation>
     );
 }  
 

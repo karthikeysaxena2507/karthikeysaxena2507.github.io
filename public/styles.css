@@ -48,6 +48,7 @@ body {
 
 .padding {
     padding: 25px 25px;
+    white-space: pre-wrap;
 }
 .less-padding {
     padding: 10px 0px;
@@ -152,4 +153,8 @@ footer {
 
 .exp {
     font-size: larger;
+}
+
+.exp img {
+    border-radius: 10px;
 }

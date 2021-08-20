@@ -17,18 +17,17 @@ function Intro() {
 
     return <div id = "intro">
     <div className = "container upper-margin">
-        <div className = "center-text visit"> No. of Visits: {visit} </div>
-        <div className = "row center-text">
+        <div className = "text-center visit"> No. of Visits: {visit} </div>
+        <div className = "row text-center">
             <div className = "col-md-6 padding" >
-            <ScrollAnimation animateIn = "slideInLeft" duration = {1.5}>
+            <ScrollAnimation animateOnce = {true} animateIn = "slideInLeft" duration = {1.5}>
                 <img src = {Photo} className = "photo" alt = "not found" />
             </ScrollAnimation>
             </div>
             <div class = "col-md-6 intro padding">
-            <ScrollAnimation animateIn = "slideInRight" duration = {1.5}>
-                <p> Hello There! </p>
-                <p> I am <b> Karthikey Saxena </b>, an aspiring Software Developer </p>
-                <div className = "center-text">
+            <ScrollAnimation animateOnce = {true} animateIn = "slideInRight" duration = {1.5}>
+                <p>{data.startingData}</p>
+                <div className = "text-center">
                     <a href = "#about"> 
                         <button 
                             type = "button" 
