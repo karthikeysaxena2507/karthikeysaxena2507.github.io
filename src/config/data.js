@@ -24,7 +24,7 @@ import docker from "../Images/docker.png";
 import kubernetes from "../Images/kubernetes.png";
 import oracledb from "../Images/oracleDB.png";
 import oracle from "../Images/oracle.png";
-import trilyo from "../Images/trilyo.PNG";
+import konverse from "../Images/konverse.PNG";
 
 
 export const links = {
@@ -222,9 +222,9 @@ export const experiences = [
         link: links.ORACLE_LINK
     },
     {
-        image:  trilyo,
+        image:  konverse,
         imageAnimation: "fadeInRight", 
-        name: "Trilyo",
+        name: "Konverse AI",
         position: "Software Engineer Intern - ETL development group", 
         link: links.TRILYO_LINK,
     }
