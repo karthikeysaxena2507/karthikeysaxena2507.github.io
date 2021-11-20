@@ -8,7 +8,7 @@ html {
 body {
     background: linear-gradient(-45deg, #02e0addc, #29b7da, #8d2ee6);
     background-size: 400% 400%;
-    color: #fff;
+    color: #fff !important;
     animation: gradient 4s ease infinite;
     font-family: 'Montserrat', sans-serif;
 }
@@ -26,11 +26,11 @@ body {
 }
 
 .expand {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .expand:hover {
-    transform: scale(1.05);
+    transform: scale(1.005);
 }
 
 .upper-margin {
@@ -110,7 +110,6 @@ body {
 .proj-img {
     border: 2px solid rgb(0, 124, 161);
     border-radius: 10px;
-    width: 60%;
     height: auto;
 }
 

@@ -9,9 +9,26 @@ const Experiences = () => {
     <div className = "container upper-margin" id = "experiences">
         <Heading heading = "Work Experience" />
         <div className = "row">
-            {data.experiences.map((experience) => {
+            {data.experiences1.map((experience) => {
                 return (
                 <div className = "col-md-6 text-center padding">
+                    <Experience 
+                        image = {experience.image}
+                        imageAnimation = {experience.imageAnimation}
+                        name = {experience.name}
+                        position = {experience.position}
+                        link = {experience.link}
+                    />
+                </div>);
+            })}
+        </div>
+        <div 
+            className = "text-center" 
+            style = {{margin: "0 auto", display: "block", width: "550px"}}
+        >
+            {data.experiences2.map((experience) => {
+                return (
+                <div className = "padding">
                     <Experience 
                         image = {experience.image}
                         imageAnimation = {experience.imageAnimation}

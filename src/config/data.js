@@ -24,7 +24,8 @@ import docker from "../Images/docker.png";
 import kubernetes from "../Images/kubernetes.png";
 import oracledb from "../Images/oracleDB.png";
 import oracle from "../Images/oracle.png";
-import konverse from "../Images/konverse.PNG";
+import konverse from "../Images/konverse.png";
+import cars24 from "../Images/cars24.PNG";
 
 
 export const links = {
@@ -42,7 +43,8 @@ export const links = {
     CODEFORCES_LINK: "https://codeforces.com/profile/karthikeysaxena",
     EMAIL_LINK: "mailto:karthikeysaxena@gmail.com",
     ORACLE_LINK: "https://www.oracle.com/index.html",
-    TRILYO_LINK: "https://www.trilyo.com/"
+    KONVERSEAI_LINK: "https://www.konverse.ai/",
+    CARS24_LINK: "https://www.cars24.com/"
 }
 
 export const projects = [
@@ -213,7 +215,7 @@ export const database = [
     }
 ];
 
-export const experiences = [
+export const experiences1 = [
     {
         image: oracle,
         imageAnimation: "fadeInLeft", 
@@ -222,13 +224,23 @@ export const experiences = [
         link: links.ORACLE_LINK
     },
     {
-        image:  konverse,
-        imageAnimation: "fadeInRight", 
-        name: "Konverse AI",
-        position: "Software Engineer Intern - ETL development group", 
-        link: links.TRILYO_LINK,
+        image: cars24,
+        imageAnimation: "fadeInRight",
+        name: "Cars24",
+        position: "Software Developer Intern - Cars24 Australia Tech Team",
+        link: links.CARS24_LINK
     }
 ];
+
+export const experiences2 = [
+    {
+        image:  konverse,
+        imageAnimation: "fadeIn", 
+        name: "Konverse AI",
+        position: "Software Engineer Intern - ETL development group", 
+        link: links.KONVERSEAI_LINK,
+    }
+]
 
 export const introData = "I am a software/Full stack Developer enthusiast " +
 "with an immense interest in competitive programming. \n" +
