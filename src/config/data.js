@@ -128,7 +128,7 @@ export const contacts = [
 export const languages = [
     {
         image: Cpp,
-        skill: "C/C++",
+        skill: "C++",
         animation: "fadeInLeft"
     },     
     {
@@ -174,7 +174,7 @@ export const technologies = [
     }, 
     {
         image: react,
-        skill: "React/React-Native",
+        skill: "React",
         animation: "fadeInRight"
     }
 ]
