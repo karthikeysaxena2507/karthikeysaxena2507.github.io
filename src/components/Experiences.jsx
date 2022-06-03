@@ -22,13 +22,10 @@ const Experiences = () => {
                 </div>);
             })}
         </div>
-        <div 
-            className = "text-center" 
-            style = {{margin: "0 auto", display: "block", width: "550px"}}
-        >
+        <div className = "row">
             {data.experiences2.map((experience) => {
                 return (
-                <div className = "padding">
+                <div className = "col-md-6 text-center padding">
                     <Experience 
                         image = {experience.image}
                         imageAnimation = {experience.imageAnimation}

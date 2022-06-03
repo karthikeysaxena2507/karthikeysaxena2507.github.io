@@ -26,7 +26,7 @@ import oracledb from "../Images/oracleDB.png";
 import oracle from "../Images/oracle.png";
 import konverse from "../Images/konverse.png";
 import cars24 from "../Images/cars24.PNG";
-
+import upstox from "../Images/upstox.png";
 
 export const links = {
     RESUME_LINK: "https://drive.google.com/file/d/1TfGyetdVgaJEBUIvz8_Azq5SX6x4Zy4T/view?usp=sharing",
@@ -44,7 +44,8 @@ export const links = {
     EMAIL_LINK: "mailto:karthikeysaxena@gmail.com",
     ORACLE_LINK: "https://www.oracle.com/index.html",
     KONVERSEAI_LINK: "https://www.konverse.ai/",
-    CARS24_LINK: "https://www.cars24.com/"
+    CARS24_LINK: "https://www.cars24.com/",
+    UPSTOX_LINK: "https://upstox.com/"
 }
 
 export const projects = [
@@ -235,10 +236,17 @@ export const experiences1 = [
 export const experiences2 = [
     {
         image:  konverse,
-        imageAnimation: "fadeIn", 
+        imageAnimation: "fadeInLeft", 
         name: "Konverse AI",
         position: "Software Engineer Intern - ETL development group", 
         link: links.KONVERSEAI_LINK,
+    },
+    {
+        image:  upstox,
+        imageAnimation: "fadeInRight", 
+        name: "Upstox",
+        position: "Software Developer Intern - Tech Comtek Team", 
+        link: links.UPSTOX_LINK,
     }
 ]
 
