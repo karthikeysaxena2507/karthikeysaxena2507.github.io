@@ -1,23 +1,12 @@
-import React,{ useEffect, useState } from "react";
+import React from "react";
 import Photo from "../Images/photo.png";
 import ScrollAnimation from 'react-animate-on-scroll';
-import axios from "axios";
 import * as data from "../config/data";
 
 function Intro() {
 
-    var [visit, setVisit] = useState(0);
-    useEffect(() => {
-        const fun = async() => {
-            const res = await axios.get(data.links.COUNTJS_API);
-            setVisit(res.data.value);
-        }
-        fun();
-    },[]);
-
     return <div id = "intro">
     <div className = "container upper-margin">
-        <div className = "text-center visit"> No. of Visits: {visit} </div>
         <div className = "row text-center">
             <div className = "col-md-6 padding" >
             <ScrollAnimation animateOnce = {true} animateIn = "slideInLeft" duration = {1.5}>

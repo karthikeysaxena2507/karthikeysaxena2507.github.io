@@ -5,6 +5,7 @@ import Title from "../helper/Title";
 import Heading from "../helper/Heading";
 import * as data from "../config/data";
 import cf from "../Images/codeforces.png";
+import lc from "../Images/leetcode.png";
 import link from "../Images/link.png";
 
 const Skills = () => {
@@ -87,7 +88,7 @@ const Skills = () => {
         <ScrollAnimation animateIn = "fadeIn" duration = {1.5} animateOnce = {true}>
         <Title name = "CP" />
         <div className = "row">
-            <div class = "col-sm-12 text-center padding">
+            <div class = "col-sm-6 text-center padding">
                 <a 
                     href = {data.links.CODEFORCES_LINK}
                     rel = "noreferrer" 
@@ -103,6 +104,26 @@ const Skills = () => {
                         rel = "noreferrer" 
                         target = "_blank" > 
                         CodeForces  
+                        <img src = {link} alt = "not found" className = "expand pl-2" /> 
+                    </a> 
+                </h4>
+            </div>
+            <div class = "col-sm-6 text-center padding">
+                <a 
+                    href = {data.links.LEETCODE_LINK}
+                    rel = "noreferrer" 
+                    target = "_blank"> 
+                <img 
+                    src = {lc} 
+                    alt = "not found" 
+                    className = "expand" 
+                /> </a>
+                <h4 className = "less-padding expand"> 
+                    <a 
+                        href = {data.links.LEETCODE_LINK}
+                        rel = "noreferrer" 
+                        target = "_blank" > 
+                        Leetcode  
                         <img src = {link} alt = "not found" className = "expand pl-2" /> 
                     </a> 
                 </h4>

@@ -1,4 +1,3 @@
-import survey from "../Images/survey.png";
 import game from "../Images/gamedev.png";
 import food from "../Images/food.PNG";
 import social from "../Images/social.PNG";
@@ -29,23 +28,23 @@ import cars24 from "../Images/cars24.PNG";
 import upstox from "../Images/upstox.png";
 
 export const links = {
-    RESUME_LINK: "https://drive.google.com/file/d/1TfGyetdVgaJEBUIvz8_Azq5SX6x4Zy4T/view?usp=sharing",
+    RESUME_LINK: "https://drive.google.com/file/d/1ePJCS5P1VRgTfN48SexN7h65lMHiHJEf/view?usp=sharing",
     GITHUB_LINK: "https://github.com/karthikeysaxena2507/",
-    LINKEDIN_LINK: "https://www.linkedin.com/in/karthikey-saxena-69944b177/",
+    LINKEDIN_LINK: "https://www.linkedin.com/in/karthikey-saxena/",
     INSTAGRAM_LINK: "https://www.instagram.com/karthikeysaxena/",
     TWITTER_LINK: "https://twitter.com/KarthikeySaxen1",
     FACEBOOK_LINK: "https://www.facebook.com/kartikey.saxena.71/",
-    COUNTJS_API: "https://api.countapi.xyz/update/karthikey/portfolio?amount=1",
-    SOCIALITES_LINK: "https://socialites-karthikey.herokuapp.com/",
     SFML_LINK: "https://user-images.githubusercontent.com/66271249/111206686-b4628c00-85ee-11eb-8d7d-8240132e9f7c.mp4",
-    SURVEY_LINK: "https://survey-it.netlify.app/",
-    RESTAURANT_LINK: "https://resturant-finder.herokuapp.com/",
     CODEFORCES_LINK: "https://codeforces.com/profile/karthikeysaxena",
-    EMAIL_LINK: "mailto:karthikeysaxena@gmail.com",
+    LEETCODE_LINK: "https://leetcode.com/u/karthikeysaxena/",
+    EMAIL_LINK: "mailto:karthikeysaxena1@gmail.com",
     ORACLE_LINK: "https://www.oracle.com/index.html",
     KONVERSEAI_LINK: "https://www.konverse.ai/",
     CARS24_LINK: "https://www.cars24.com/",
-    UPSTOX_LINK: "https://upstox.com/"
+    UPSTOX_LINK: "https://upstox.com/",
+    SOCIALITES_LINK: "https://github.com/karthikeysaxena2507/Socialites",
+    RESTAURANT_LINK: "https://github.com/karthikeysaxena2507/Foodelicious",
+    TOKEN_BASED_LINK: "https://github.com/karthikeysaxena2507/TokenBasedSafe"
 }
 
 export const projects = [
@@ -58,7 +57,7 @@ export const projects = [
         "post, comment, add a reaction, or chat privately or in groups, along with " + 
         "many other features.",
         content: "The webiste is built using the MERN stack and deployed on Heroku.",
-        button: "Link to Site",
+        button: "Github Repo",
         projectLink: links.SOCIALITES_LINK
     },
     {
@@ -81,21 +80,8 @@ export const projects = [
         "manage their billings, menu and also compare them with other restaurants.",
         content: "Used Reactjs for frontend and Nodejs for backend with MySQL database. " +
         "The website is deployed on heroku.",
-        button: "Link to Site",
+        button: "Github Repo",
         projectLink: links.RESTAURANT_LINK
-    },
-    {
-        animation: "fadeInRight",
-        projectName: "SurveyIt-Backend",
-        image: survey,
-        title: "Survey It Web Application",
-        description: "Developed a web application where users can conducts surveys and " +
-        "polls, as well as vote on other posts.",
-        content: "The Backend is built using spring boot framework with MySQL database " + 
-        "and deployed on Heroku while the Frontend is built with Reactjs and deployed " + 
-        "on Netlify.",
-        button: "Link to Site",
-        projectLink: links.SURVEY_LINK
     }
 ];
 
@@ -178,7 +164,7 @@ export const technologies = [
         skill: "React",
         animation: "fadeInRight"
     }
-]
+];
 
 export const devops = [
     {
@@ -216,7 +202,17 @@ export const database = [
     }
 ];
 
-export const experiences1 = [
+export const experiences = [
+    {
+        image: oracle,
+        imageAnimation: "fadeIn", 
+        name: "Oracle",
+        position: "Application Engineer - Oracle SCM - Order Management Team",
+        link: links.ORACLE_LINK
+    }
+];
+
+export const experiences2 = [
     {
         image: oracle,
         imageAnimation: "fadeInLeft", 
@@ -225,36 +221,35 @@ export const experiences1 = [
         link: links.ORACLE_LINK
     },
     {
-        image: cars24,
-        imageAnimation: "fadeInRight",
-        name: "Cars24",
-        position: "Software Developer Intern - Cars24 Australia Tech Team",
-        link: links.CARS24_LINK
-    }
-];
-
-export const experiences2 = [
-    {
         image:  konverse,
-        imageAnimation: "fadeInLeft", 
+        imageAnimation: "fadeInRight", 
         name: "Konverse AI",
         position: "Software Engineer Intern - ETL development group", 
         link: links.KONVERSEAI_LINK,
+    }
+];
+
+export const experiences1 = [
+    {
+        image: cars24,
+        imageAnimation: "fadeInLeft",
+        name: "Cars24",
+        position: "Software Developer Intern - Cars24 Australia Backend Team",
+        link: links.CARS24_LINK
     },
     {
         image:  upstox,
         imageAnimation: "fadeInRight", 
         name: "Upstox",
-        position: "Software Developer Intern - Tech Comtek Team", 
+        position: "Software Developer Intern - Back Office Portal Team", 
         link: links.UPSTOX_LINK,
     }
-]
+];
 
-export const introData = "I am a software/Full stack Developer enthusiast " +
-"with an immense interest in competitive programming. \n" +
+export const introData = "I am currently working as a Software Engineer at Oracle \n" +
 "I am passionate towards coding and building awesome projects " +
 "to grow and develop my skills as a developer in the IT industry. \n" + 
 "Feel free to contact me at any time.";
 
 export const startingData = "Hello There! \n" +
-"I am Karthikey Saxena, an aspiring Software Developer";
+"I am Karthikey Saxena, a Software Engineer";
