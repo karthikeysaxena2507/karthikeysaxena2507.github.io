@@ -1,26 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.895d7635.chunk.js",
-    "main.js.map": "/static/js/main.895d7635.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.291a5225.js",
-    "runtime-main.js.map": "/static/js/runtime-main.291a5225.js.map",
-    "static/js/2.70eaba4a.chunk.js": "/static/js/2.70eaba4a.chunk.js",
-    "static/js/2.70eaba4a.chunk.js.map": "/static/js/2.70eaba4a.chunk.js.map",
+    "main.js": "/static/js/main.379970a9.js",
+    "static/media/photo.png": "/static/media/photo.789e7108f828673dd9d6.png",
+    "static/media/food.PNG": "/static/media/food.6ac2fd511e18c53355cd.PNG",
+    "static/media/social.PNG": "/static/media/social.3fd12700c83f5a8b8e6f.PNG",
+    "static/media/konverse.png": "/static/media/konverse.75015df8744d2b521e2a.png",
+    "static/media/gamedev.png": "/static/media/gamedev.7d0c31ba82f08340017a.png",
+    "static/media/cars24.PNG": "/static/media/cars24.8f9eb70c40c015246fa7.PNG",
+    "static/media/oracle.png": "/static/media/oracle.1803cf7d1fcffb1aeb67.png",
+    "static/media/upstox.png": "/static/media/upstox.3e3ab621bdc63bcfb638.png",
     "index.html": "/index.html",
-    "static/js/2.70eaba4a.chunk.js.LICENSE.txt": "/static/js/2.70eaba4a.chunk.js.LICENSE.txt",
-    "static/media/cars24.8f9eb70c.PNG": "/static/media/cars24.8f9eb70c.PNG",
-    "static/media/food.6ac2fd51.PNG": "/static/media/food.6ac2fd51.PNG",
-    "static/media/gamedev.7d0c31ba.png": "/static/media/gamedev.7d0c31ba.png",
-    "static/media/konverse.75015df8.png": "/static/media/konverse.75015df8.png",
-    "static/media/oracle.1803cf7d.png": "/static/media/oracle.1803cf7d.png",
-    "static/media/photo.789e7108.png": "/static/media/photo.789e7108.png",
-    "static/media/social.3fd12700.PNG": "/static/media/social.3fd12700.PNG",
-    "static/media/survey.5f4d7840.png": "/static/media/survey.5f4d7840.png",
-    "static/media/upstox.3e3ab621.png": "/static/media/upstox.3e3ab621.png"
+    "main.379970a9.js.map": "/static/js/main.379970a9.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.291a5225.js",
-    "static/js/2.70eaba4a.chunk.js",
-    "static/js/main.895d7635.chunk.js"
+    "static/js/main.379970a9.js"
   ]
 }

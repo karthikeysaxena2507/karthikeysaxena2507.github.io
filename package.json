@@ -5,7 +5,7 @@
   "private": true,
   "engines": {
     "npm": "10.x",
-    "node": "20.x"
+    "node": "20 .x"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
@@ -18,7 +18,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.1",
     "react-ga": "^3.3.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

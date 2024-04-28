@@ -158,3 +158,9 @@ footer {
 .exp img {
     border-radius: 10px;
 }
+
+.exp1 {
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
